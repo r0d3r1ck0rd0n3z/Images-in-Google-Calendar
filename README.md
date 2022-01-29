@@ -25,7 +25,7 @@ When a user imports a calendar entry, Google does the following:
   * Adds Google related parameters to all URLs found inside SRC and HREF attributes
   * ALT attributes inside <tt>&lt;IMG&gt;</tt> tags are left alone
   
-Since Google 'sanitizes' all URLs found inside SRC and HREF attributes, images embedded using the <tt>&lt;IMG&gt;</tt> tag tag do not appear in calendar entries after import.
+Since Google 'sanitizes' all URLs found inside SRC and HREF attributes, images embedded using the <tt>&lt;IMG&gt;</tt> tag do not appear in calendar entries after import.
 
 &nbsp;
 
