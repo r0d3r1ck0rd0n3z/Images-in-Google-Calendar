@@ -16,7 +16,7 @@ To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/
 
 ## Background
 
-Google Calendar supports a limited number of HTML tags, mainly to support importing events from other calendar apps that have full HTML support. However, most tags can only be inserted when importing events, including the <tt>&lt;IMG&gt;</tt> tag.   
+Google Calendar supports a limited number of HTML tags, mainly for compatibility with other calendar apps that have full HTML support. However, most tags can only be inserted when importing events, including the <tt>&lt;IMG&gt;</tt> tag.   
   
 When a user imports a calendar entry, Google does the following:
   
