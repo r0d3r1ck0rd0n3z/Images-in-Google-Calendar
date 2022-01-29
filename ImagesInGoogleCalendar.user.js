@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Fix IMG tags imported into Google Calendar
-// @author       Roderick Ordonez
+// @author       https://github.com/r0d3r1ck0rd0n3z
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @match        http*://calendar.google.com/*
 // @include      https://calendar.google.com/*
