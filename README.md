@@ -47,3 +47,17 @@ Additionally, using third-party automation services such as Zapier, IFTTT and In
 ## Limitations
 
 Images will not show up when editing an event. In fact, editing an event may actually strip all the HTML from the description text. Note that this does not happen all the time, but it does happen every now and then.  
+
+&nbsp;
+
+## Screenshots
+
+Google Calendar without the script
+
+![Script turned off](/images/github-cal-off.png)
+
+&nbsp;
+
+Google Calendar with the script turned on and running
+
+![Script turned off](/images/github-cal-on.png)
