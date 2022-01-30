@@ -16,9 +16,11 @@ To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/
 
 ## Background
 
-Google Calendar supports a limited number of HTML tags, mainly for compatibility with other calendar apps that have full HTML support. However, most tags can only be inserted when importing events, including the <tt>&lt;IMG&gt;</tt> tag.   
-  
-When a user imports a calendar entry, Google does the following:
+I wanted to show images on my Google Calendar. Unfortunately, Google Calendar does not provide a way to embed images, nor does it allow the use of HTML when adding a description to calendar events. Which is such a shame since the <tt>&lt;html-blob&gt;</tt> tag would be very helpful here.
+
+However, Google Calendar *does* allow HTML tags in the description, albeit you just can't manually add it as raw code in the description textarea. You can however *import* events with descriptions that already contain HTML code. This is mainly for compatibility with other calendar apps that offer full HTML support. So problem solved, right? 
+
+Not quite. While Google Calendar supports a limited number of HTML tags (the <tt>&lt;IMG&gt;</tt> tag included), Google Calendar still subjects the text goes through a 'code cleaning' process, which does the following: 
   
   * Inserts all content inside <tt>&lt;html-blob&gt;</tt> tags
   * Removes unsupported tags, such as styles, classes and IDs  
