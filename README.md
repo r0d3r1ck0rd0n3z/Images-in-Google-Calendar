@@ -6,9 +6,9 @@ This tampermonkey script reverts URLs inside <tt>&lt;IMG&gt;</tt> tags back to t
 
 ## Dependencies
 
-This script requires [Tampermonkey](https://www.tampermonkey.net/) to function. The user is assumed to have a basic understanding on how a Tampermonkey script works.
+This script requires [Tampermonkey](https://www.tampermonkey.net/) to function. Having a basic understanding on how a Tampermonkey script is necessary to set this up properly.
 
-To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) first, then copy the code into the dashboard. If you need a quick guide on installing scripts, the following resources may be of help:
+To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) first, then install the code as a new userscript on the dashboard. If you need a quick guide on installing scripts, the following resources may be of help:
 * https://www.tampermonkey.net/faq.php#Q102
 * https://www.youtube.com/watch?v=8tyjJD65zws
 
@@ -18,7 +18,7 @@ To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/
 
 I wanted to show images on my Google Calendar. Unfortunately, Google Calendar does not provide a way to embed images, nor does it allow the use of HTML when adding a description to calendar events. Which is such a shame since the <tt>&lt;IMG&gt;</tt> tag would be very helpful here.
 
-However, Google Calendar *does* allow HTML tags in the description, albeit you just can't manually add it as raw code in the description textarea. You can however ** *import* ** events with descriptions that already contain HTML code. This is possibly to compatibility with other calendar apps that offer full HTML support. Thankfully, the <tt>&lt;IMG&gt;</tt> tag is one of the supported tags. So problem solved, right? 
+However, Google Calendar *does* allow HTML tags in the description, albeit you just can't manually add it as raw code in the description textarea. You can however ** *import* ** events with descriptions that already contain HTML code. This is possibly for compatibility with other calendar apps that offer full HTML support. Thankfully, the <tt>&lt;IMG&gt;</tt> tag is one of the supported tags. So problem solved, right? 
 
 Not quite. While Google Calendar already supports a very limited number of HTML tags, the text goes through yet another 'code-cleaning' process, which does the following: 
   
