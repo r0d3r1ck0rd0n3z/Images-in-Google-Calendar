@@ -16,7 +16,9 @@ To use, install the [Tampermonkey extension](https://chrome.google.com/webstore/
 
 ## Background
 
-I wanted to show images on my Google Calendar. Unfortunately, Google Calendar does not provide a way to embed images, nor does it allow the use of HTML when adding a description to calendar events. Which is such a shame since the <tt>&lt;IMG&gt;</tt> tag would be very helpful here.
+I wanted to show images on my Google Calendar. 
+
+Unfortunately, Google Calendar does not provide a way to embed images, nor does it allow the use of HTML when adding a description to calendar events. Which is such a shame since the <tt>&lt;IMG&gt;</tt> tag would be very helpful here.
 
 However, Google Calendar *does* allow HTML tags in the description, albeit you just can't manually add it as raw code in the description textarea. You can however ** *import* ** events with descriptions that already contain HTML code. This is possibly for compatibility with other calendar apps that offer full HTML support. Thankfully, the <tt>&lt;IMG&gt;</tt> tag is one of the supported tags. So problem solved, right? 
 
@@ -39,3 +41,9 @@ Google provides the following documentation on inserting events into your Google
 * https://support.google.com/calendar/answer/37118?hl=en
 
 Additionally, using third-party automation services such as Zapier, IFTTT and Integromat also allow insertion of HTML content into calendar events.
+
+&nbsp;
+
+## Limitations
+
+Images will not show up when editing an event. In fact, editing an event may actually strip all the HTML from the description text. Note that this does not happen all the time, but it does happen every now and then.  
