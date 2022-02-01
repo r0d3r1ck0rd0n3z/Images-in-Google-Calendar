@@ -35,10 +35,12 @@ This script fixes that.
 
 &nbsp;
 
-## How are events inserted
+## How are events imported
 
-Google provides the following documentation on inserting events into your Google Calendar. 
+Google provides the following documentation on importing events into your Google Calendar. 
 * https://support.google.com/calendar/answer/37118?hl=en
+
+TLDR: You can use a CSV file to batch import events into Google Calendar.
 
 Additionally, using third-party automation services such as Zapier, IFTTT and Integromat also allow insertion of HTML content into calendar events.
 
@@ -54,12 +56,12 @@ Images must be publicly accessible. The script does not resolve issues with imag
 
 ## Screenshots
 
-Google Calendar without the script
+Google Calendar without the script:
 
 ![Script turned off](/images/github-cal-off.png)
 
 &nbsp;
 
-Google Calendar with the script turned on and running
+Google Calendar with the script turned on and running:
 
 ![Script turned off](/images/github-cal-on.png)
