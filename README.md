@@ -48,6 +48,8 @@ Additionally, using third-party automation services such as Zapier, IFTTT and In
 
 Images will not show up when editing an event. In fact, editing an event may actually strip all the HTML from the description text. Note that this does not happen all the time, but it does happen every now and then.  
 
+Images must be publicly accessible. The script does not resolve issues with images that require a login to access, set to private viewing only, or are protected by Cross-Origin Resource Sharing (CORS) rulesets implemented on the remote server.  
+
 &nbsp;
 
 ## Screenshots
